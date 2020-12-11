@@ -15,7 +15,8 @@ class MyAgent(MLAgent):
         return reward
     
 random.seed(1)
-    
+   
+#alpha is voor de leerfactor, epsilon voor verkenningsfactor
 my_agent = MyAgent(alpha=0.2, epsilon=0.8)
 random_agent = RandomAgent()
 
